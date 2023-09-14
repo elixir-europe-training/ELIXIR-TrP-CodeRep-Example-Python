@@ -9,3 +9,6 @@ It takes its inspiration from FastQC in that it produces graphics & text that ca
 
 html_gen.py contains functions to be incorporated into codereppy1.py (and the batch derivatives) to create html entries for its text and graphics outputs.   
 html_test.py (along with test_image.png file) was used to test the functions in html_gen.py.
+
+It is envisaged that the CodeRep Documentation and testing group will use the models.py and plots.py for their needs to demonstrate their course concepts and the codereppy.py can be e.g. loaded into a Jupyter notebook or Rmarkdown document and source the two external files.
+This should allow the Literate programming course to apply Markdown to the script.    
